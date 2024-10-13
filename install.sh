@@ -305,7 +305,8 @@ show_logs() {
 
 install_script() {
     local script_path="/usr/local/bin/$SCRIPT_NAME"
-    cp "$0" "$script_path"
+    
+    cp "$(realpath "$0")" "$script_path"
     chmod +x "$script_path"
     success "Script installed successfully. You can now use '$SCRIPT_NAME' command from anywhere."
 }
