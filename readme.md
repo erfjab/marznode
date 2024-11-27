@@ -2,6 +2,8 @@
 
 The `marznode` script helps manage the installation, updates and maintenance of MarzNode and its Xray core dependencies. This tool includes commands for installing and controlling the MarzNode service (with `custom xray version`), as well as a built-in system for checking and installing required dependencies.
 
+why is archive? because rate of adding Marzneshin cores was faster than my update speed.
+
 ## Features
 
 - **Install/Uninstall MarzNode**: Easily install or remove MarzNode.
